@@ -1,0 +1,34 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "prettier",
+        "prettier/react"
+    ],
+
+    // "rules": {
+    //     "react/proptypes": 0,
+    //     "no-console": 1
+    // },
+
+    "plugins": [],
+
+    "parserOptions": {
+        "ecmaVersion": 2019,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx":true
+        }
+    },
+
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": true
+    }
+
+    // "settings": {
+    //     "react": {
+    //         "version": "detect"
+    //     }
+    // }
+}
